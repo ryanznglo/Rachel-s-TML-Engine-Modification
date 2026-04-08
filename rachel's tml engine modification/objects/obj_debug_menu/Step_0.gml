@@ -1,4 +1,4 @@
-if (keyboard_check_pressed(vk_tab)) || (Input_IsPressed(INPUT.CANCEL)) {
+if (keyboard_check_pressed(vk_tab)) {
     _debug_open = !_debug_open;
 }
 
