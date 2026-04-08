@@ -1,4 +1,4 @@
-function board_x(dir = DIR.LEFT){
+function Board_X(dir = DIR.LEFT){
 	
 	if !instance_exists(battle_board) {
 		exit;
@@ -14,7 +14,7 @@ function board_x(dir = DIR.LEFT){
 	
 }
 
-function board_y(dir = DIR.UP){
+function Board_Y(dir = DIR.UP){
 	
 	if !instance_exists(battle_board) {
 		exit;

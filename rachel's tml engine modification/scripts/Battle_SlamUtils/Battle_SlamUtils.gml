@@ -1,4 +1,4 @@
-function scr_slam(dir = DIR.DOWN){
+function Battle_Slam(dir = DIR.DOWN){
 	Battle_SetSoul(battle_soul_blue)
 	battle_soul_blue.dir = dir
 	
@@ -17,8 +17,6 @@ function scr_slam(dir = DIR.DOWN){
 	if dir == DIR.RIGHT {
 		battle_soul.move = abs((battle_board._inst_frame_right.x - battle_soul.x) / 10)
 	}
-	
-	
 	
 	battle_soul.impact = 1
 }

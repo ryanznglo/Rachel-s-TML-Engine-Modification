@@ -6,11 +6,11 @@ if start
 	if timer == 10
 	{
 		// rachel's engine:
-		CreateBone(board_x(DIR.LEFT), board_y(DIR.DOWN), 100, 1, 0, 0)
+		CreateBone(Board_X(DIR.LEFT), Board_Y(DIR.DOWN), 100, 1, 0, 0)
 	}
 	if timer == 100
 	{
-		scr_slam(DIR.DOWN)
+		Battle_Slam(DIR.DOWN)
 		//When timer is 100, It will do something.
 	}
 	if timer == 1000

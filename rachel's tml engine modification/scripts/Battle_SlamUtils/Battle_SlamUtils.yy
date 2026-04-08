@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"board_functions",
+  "%Name":"Battle_SlamUtils",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"board_functions",
+  "name":"Battle_SlamUtils",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

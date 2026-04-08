@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_slam",
+  "%Name":"Battle_BoardUtils",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_slam",
+  "name":"Battle_BoardUtils",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

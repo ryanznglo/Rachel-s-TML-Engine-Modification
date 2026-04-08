@@ -1,6 +1,6 @@
 {
   "$GMProject":"v1",
-  "%Name":"undertale engine template ryan",
+  "%Name":"rachel's tml engine modification",
   "AudioGroups":[
     {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -146,7 +146,7 @@
   "MetaData":{
     "IDEVersion":"2024.14.4.222",
   },
-  "name":"undertale engine template ryan",
+  "name":"rachel's tml engine modification",
   "resources":[
     {"id":{"name":"font_crypt_of_tomorrow","path":"fonts/font_crypt_of_tomorrow/font_crypt_of_tomorrow.yy",},},
     {"id":{"name":"font_mars_needs_cunnilingus","path":"fonts/font_mars_needs_cunnilingus/font_mars_needs_cunnilingus.yy",},},
@@ -252,6 +252,7 @@
     {"id":{"name":"Anim_IsExists","path":"scripts/Anim_IsExists/Anim_IsExists.yy",},},
     {"id":{"name":"Anim_Step","path":"scripts/Anim_Step/Anim_Step.yy",},},
     {"id":{"name":"Anim_Uninit","path":"scripts/Anim_Uninit/Anim_Uninit.yy",},},
+    {"id":{"name":"Battle_BoardUtils","path":"scripts/Battle_BoardUtils/Battle_BoardUtils.yy",},},
     {"id":{"name":"Battle_CallBulletEventSoulCollision","path":"scripts/Battle_CallBulletEventSoulCollision/Battle_CallBulletEventSoulCollision.yy",},},
     {"id":{"name":"Battle_CallEnemyEvent","path":"scripts/Battle_CallEnemyEvent/Battle_CallEnemyEvent.yy",},},
     {"id":{"name":"Battle_CallSoulEventBulletCollision","path":"scripts/Battle_CallSoulEventBulletCollision/Battle_CallSoulEventBulletCollision.yy",},},
@@ -352,6 +353,7 @@
     {"id":{"name":"Battle_SetTurnNumber","path":"scripts/Battle_SetTurnNumber/Battle_SetTurnNumber.yy",},},
     {"id":{"name":"Battle_SetTurnPreparationAutoEnd","path":"scripts/Battle_SetTurnPreparationAutoEnd/Battle_SetTurnPreparationAutoEnd.yy",},},
     {"id":{"name":"Battle_SetTurnTime","path":"scripts/Battle_SetTurnTime/Battle_SetTurnTime.yy",},},
+    {"id":{"name":"Battle_SlamUtils","path":"scripts/Battle_SlamUtils/Battle_SlamUtils.yy",},},
     {"id":{"name":"battle_warn","path":"scripts/battle_warn/battle_warn.yy",},},
     {"id":{"name":"BGM_GetAudio","path":"scripts/BGM_GetAudio/BGM_GetAudio.yy",},},
     {"id":{"name":"BGM_GetID","path":"scripts/BGM_GetID/BGM_GetID.yy",},},
@@ -366,7 +368,6 @@
     {"id":{"name":"BGM_SetVolume","path":"scripts/BGM_SetVolume/BGM_SetVolume.yy",},},
     {"id":{"name":"BGM_Step","path":"scripts/BGM_Step/BGM_Step.yy",},},
     {"id":{"name":"BGM_Stop","path":"scripts/BGM_Stop/BGM_Stop.yy",},},
-    {"id":{"name":"board_functions","path":"scripts/board_functions/board_functions.yy",},},
     {"id":{"name":"BoneStabs","path":"scripts/BoneStabs/BoneStabs.yy",},},
     {"id":{"name":"Border_GetSprite","path":"scripts/Border_GetSprite/Border_GetSprite.yy",},},
     {"id":{"name":"Border_IsEnabled","path":"scripts/Border_IsEnabled/Border_IsEnabled.yy",},},
@@ -552,7 +553,6 @@
     {"id":{"name":"RegisterManager","path":"scripts/RegisterManager/RegisterManager.yy",},},
     {"id":{"name":"RegularBlaster","path":"scripts/RegularBlaster/RegularBlaster.yy",},},
     {"id":{"name":"RegularBlasterCircle","path":"scripts/RegularBlasterCircle/RegularBlasterCircle.yy",},},
-    {"id":{"name":"scr_slam","path":"scripts/scr_slam/scr_slam.yy",},},
     {"id":{"name":"Storage_Custom_Dynamic","path":"scripts/Storage_Custom_Dynamic/Storage_Custom_Dynamic.yy",},},
     {"id":{"name":"Storage_Custom_Info","path":"scripts/Storage_Custom_Info/Storage_Custom_Info.yy",},},
     {"id":{"name":"Storage_Custom_Settings","path":"scripts/Storage_Custom_Settings/Storage_Custom_Settings.yy",},},
