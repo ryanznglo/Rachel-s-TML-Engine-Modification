@@ -2,6 +2,10 @@
 instance_create_depth(0,0,0,battle_fader);
 instance_create_depth(0,0,0,battle_board);
 instance_create_depth(0,0,0,battle_ui);
+
+// new object not included in TML engine.
+instance_create_depth(0,0,0,battle_bg);
+
 instance_create_depth(32,432,0,battle_button_fight);
 instance_create_depth(185,432,0,battle_button_act);
 instance_create_depth(345,432,0,battle_button_item);

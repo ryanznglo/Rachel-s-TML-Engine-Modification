@@ -150,6 +150,7 @@
   "resources":[
     {"id":{"name":"font_crypt_of_tomorrow","path":"fonts/font_crypt_of_tomorrow/font_crypt_of_tomorrow.yy",},},
     {"id":{"name":"font_mars_needs_cunnilingus","path":"fonts/font_mars_needs_cunnilingus/font_mars_needs_cunnilingus.yy",},},
+    {"id":{"name":"battle_bg","path":"objects/battle_bg/battle_bg.yy",},},
     {"id":{"name":"battle_blaster_circle_setup","path":"objects/battle_blaster_circle_setup/battle_blaster_circle_setup.yy",},},
     {"id":{"name":"battle_board","path":"objects/battle_board/battle_board.yy",},},
     {"id":{"name":"battle_bullet_wbonestab","path":"objects/battle_bullet_wbonestab/battle_bullet_wbonestab.yy",},},
@@ -224,8 +225,8 @@
     {"id":{"name":"hint_landmark","path":"objects/hint_landmark/hint_landmark.yy",},},
     {"id":{"name":"logo","path":"objects/logo/logo.yy",},},
     {"id":{"name":"menu","path":"objects/menu/menu.yy",},},
+    {"id":{"name":"obj_boardutils_init","path":"objects/obj_boardutils_init/obj_boardutils_init.yy",},},
     {"id":{"name":"obj_cutscene_inst","path":"objects/obj_cutscene_inst/obj_cutscene_inst.yy",},},
-    {"id":{"name":"oGlobalVal","path":"objects/oGlobalVal/oGlobalVal.yy",},},
     {"id":{"name":"shaker","path":"objects/shaker/shaker.yy",},},
     {"id":{"name":"text_single","path":"objects/text_single/text_single.yy",},},
     {"id":{"name":"text_typer","path":"objects/text_typer/text_typer.yy",},},
