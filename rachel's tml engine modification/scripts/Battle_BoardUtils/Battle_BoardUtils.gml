@@ -1,3 +1,7 @@
+// These functions are for quality of life
+// Board_X can take either DIR.LEFT or DIR.RIGHT to get the left or right edge of the board.
+// Board_Y can take either DIR.UP or DIR.DOWN to get the up or down edge of the board.
+
 function Board_X(dir = DIR.LEFT){
 	
 	if !instance_exists(battle_board) {

@@ -5,7 +5,6 @@ if start
 	timer++
 	if timer == 10
 	{
-		// rachel's engine:
 		CreateBone(Board_X(DIR.LEFT), Board_Y(DIR.DOWN), 100, 1, 0, 0)
 	}
 	if timer == 100

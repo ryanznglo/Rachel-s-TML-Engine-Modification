@@ -1,3 +1,5 @@
+// I might optimize this soon, I'm not sure if I like how I formatted this.
+
 function Battle_Slam(dir = DIR.DOWN){
 	Battle_SetSoul(battle_soul_blue)
 	battle_soul_blue.dir = dir
