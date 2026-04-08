@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"CustomItem_WornDagger",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"CustomItem_WornDagger",
+  "parent":{
+    "name":"Weapons",
+    "path":"folders/Scripts/Item/Weapons.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

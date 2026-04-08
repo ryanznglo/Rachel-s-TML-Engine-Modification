@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"CustomItem_Burnt_Pan",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"CustomItem_Burnt_Pan",
+  "parent":{
+    "name":"Weapons",
+    "path":"folders/Scripts/Item/Weapons.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

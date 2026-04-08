@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"CustomItem_Apron",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"CustomItem_Apron",
+  "parent":{
+    "name":"Armors",
+    "path":"folders/Scripts/Item/Armors.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"CustomItem_Glasses",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"CustomItem_Glasses",
+  "parent":{
+    "name":"Armors",
+    "path":"folders/Scripts/Item/Armors.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

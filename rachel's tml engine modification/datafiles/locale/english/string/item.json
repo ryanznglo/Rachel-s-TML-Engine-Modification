@@ -1,0 +1,77 @@
+{
+    "item.eat": "* You ate the {insert ITEM}.",
+    "item.equip": "* You equiped the {insert ITEM}.",
+    "item.heal.part": "* You recovered {insert HP} HP!",
+    "item.heal.all": "* Your HP was maxed out.",
+    
+    "item.drop.0": "* The {insert ITEM} was&  thrown away.",
+    "item.drop.1": "* You bid a quiet farewell&  to the {insert ITEM}.",
+    "item.drop.2": "* You put the {insert ITEM}&  on the ground and gave it a&  little pat.",
+    "item.drop.3": "* You threw the {insert ITEM}&  on the ground like the piece&  of trash it is.",
+    "item.drop.4": "* You abandoned the &  {insert ITEM}.",
+
+    "item.stick.name": "Stick",
+    "item.stick.info": "* Stick - Weapon AT 0&* Its bark is worse than&  its bite.",
+    "item.stick.use": "* You threw the stick away.{sleep 20}&* Then picked it back up.",
+
+    "item.bandage.name": "Bandage",
+    "item.bandage.info": "* Bandage - Heals 10 HP&* It has already been used&  several times.",
+    "item.bandage.use.0": "* You re-applied the bandage.",
+    "item.bandage.use.1": "* Still kind of gooey.",
+
+    "item.toy_knife.name": "Toy Knife",
+    "item.toy_knife.info": "* Toy Knife - Weapon AT 3&* Made of plastic.&* A rarity nowadays.",
+
+    "item.faded_ribbon.name": "Faded Ribbon",
+    "item.faded_ribbon.name.short": "Ribbon",
+    "item.faded_ribbon.info": "* Faded Ribbon - Armor DF 3&* If you're cuter,{sleep 20} monsters&  won't hit you as hard.",
+
+    "item.tough_glove.name": "Tough Glove",
+    "item.tough_glove.name.short": "TuffGlove",
+    "item.tough_glove.info": "* Tough Glove - Weapon AT 5&* A worn pink leather glove. &* For five-fingered folk.",
+   
+    "item.burnt_pan.name": "Burnt Pan",
+    "item.burnt_pan.name.short": "TuffGlove",
+    "item.burnt_pan.info": "* Burnt Pan - Weapon AT 10&* Damage is rather consistent.&* Consumable items heal 4 more HP.",
+
+    "item.shoes.name": "BallShoes",
+    "item.shoes.name.short": "Shoes",
+    "item.shoes.info": "* Ballet Shoes - Weapon AT 7&* These used shoes make you feel&  incredibly dangerous.",  
+
+    "item.notebook.name": "Torn Notebook",
+    "item.notebook.name.short": "TornNotbo",
+    "item.notebook.info": "* Torn Notebook - Weapon AT 2&* Contains illegible scrawls.&* Increases INV by 6.",  
+
+    "item.gun.name": "Empty Gun",
+    "item.gun.name.short": "EmptyGun",
+    "item.gun.info": "* Empty Gun - Weapon AT 12&* An antique revolver.&* It has no ammo.{pause}{clear}* Must be used precisely, or &  damage will be low.",  
+
+    "item.dagger.name": "Worn Dagger",
+    "item.dagger.name.short": "WornDG",
+    "item.dagger.info": "* Worn Dagger - Weapon AT 15&* Perfect for cutting plants&  and vines.",  
+
+    "item.real_knife.name": "Real Knife",
+    "item.real_knife.name.short": "RealKnife",
+    "item.real_knife.info": "* Here we are!",
+    "item.real_knife.equip": "* About time.",
+
+    "item.cowboyhat.name": "Cowboy Hat",
+    "item.cowboyhat.name.short": "CowboyHat",
+    "item.cowboyhat.info": "* Cowboy Hat - Armor DF 12&* This battle-worn hat makes&  you want to grow a beard.{pause}{clear}* It also raises attack by 5.",
+
+    "item.tutu.name": "Old Tutu",
+    "item.tutu.name.short": "Old Tutu",
+    "item.tutu.info": "* Old Tutu - Armor DF 10&* Finally, a protective piece of&  armor.",
+
+    "item.mandanna.name": "Manly Bandanna",
+    "item.mandanna.name.short": "Mandanna",
+    "item.mandanna.info": "* Manly Bandanna - Armor DF 7&* It has seen some wear.&* It has abs drawn on it.",
+
+    "item.glasses.name": "Cloudy Glasses",
+    "item.glasses.name.short": "ClodGlass",
+    "item.glasses.info": "* Cloudy Glasses - Armor DF 5&* Glasses marred with wear.&* Increases INV by 9.",
+
+    "item.apron.name": "Stained Apron",
+    "item.apron.name.short": "StainApro",
+    "item.apron.info": "* Stained Apron - Armor DF 11&* Heals 1 HP every other turn.",
+}

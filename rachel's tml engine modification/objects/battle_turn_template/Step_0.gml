@@ -1,0 +1,25 @@
+//Step event
+
+if start
+{
+	timer++
+	if timer == 10
+	{
+		// rachel's engine:
+		CreateBone(board_x(DIR.LEFT), board_y(DIR.DOWN), 100, 1, 0, 0)
+	}
+	if timer == 100
+	{
+		scr_slam(DIR.DOWN)
+		//When timer is 100, It will do something.
+	}
+	if timer == 1000
+	{
+		Battle_EndTurn()
+		//When timer is 100, It will do something.
+	}
+	if timer >= 150 && timer <= 400 && timer%30==0
+	{
+		//When timer is between 150 and 450, and the timer variable is 30's multiple, it will do something.
+	}
+}

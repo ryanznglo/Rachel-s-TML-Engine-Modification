@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"CustomItem_EmptyGun",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"CustomItem_EmptyGun",
+  "parent":{
+    "name":"Weapons",
+    "path":"folders/Scripts/Item/Weapons.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

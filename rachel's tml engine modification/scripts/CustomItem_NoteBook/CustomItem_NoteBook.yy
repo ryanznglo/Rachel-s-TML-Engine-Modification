@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"CustomItem_NoteBook",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"CustomItem_NoteBook",
+  "parent":{
+    "name":"Weapons",
+    "path":"folders/Scripts/Item/Weapons.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

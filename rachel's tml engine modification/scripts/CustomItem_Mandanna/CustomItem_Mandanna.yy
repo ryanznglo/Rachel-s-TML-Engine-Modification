@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"CustomItem_Mandanna",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"CustomItem_Mandanna",
+  "parent":{
+    "name":"Armors",
+    "path":"folders/Scripts/Item/Armors.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
