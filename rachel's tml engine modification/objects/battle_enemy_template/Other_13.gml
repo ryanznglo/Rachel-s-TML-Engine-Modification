@@ -1,4 +1,5 @@
 /// @desc Menu Switch
+
 if Battle_GetMenu() == BATTLE_MENU.FIGHT_TARGET{
 	var inst=instance_create_depth(0,0,0,battle_menu_fight_hp_bar);
 	inst.enemy_slot=_enemy_slot;
