@@ -1,7 +1,7 @@
 depth=DEPTH_BATTLE.BULLET_OUTSIDE_HIGH*2;
 image_xscale=2
 image_yscale=2
-image_blend=global.battle_theme
+image_blend=c_white
 
 _target_x=0
 _target_y=0
