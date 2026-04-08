@@ -10,6 +10,10 @@ function Encounter_Start(encounter,anim=true,exclam=true) {
 			Storage_GetTempGeneral().Set(FLAG_TEMP_ENCOUNTER,encounter);
 			if(!Player_IsInBattle()){
 				Storage_GetTempGeneral().Set(FLAG_TEMP_BATTLE_ROOM_RETURN,room);
+				
+				Storage_GetStaticGeneral().Set(FLAG_STATIC_PLAYER_X, char_player.x);
+				Storage_GetStaticGeneral().Set(FLAG_STATIC_PLAYER_Y, char_player.y);
+				
 				room_persistent=true;
 			}
 			room_goto(room_battle);

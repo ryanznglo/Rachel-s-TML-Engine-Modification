@@ -1,5 +1,3 @@
-//show_debug_message("TIMER: " + string(Player_GetKrTimer()))
-
 //菜单
 if(_state==BATTLE_STATE.MENU){
 	//按钮

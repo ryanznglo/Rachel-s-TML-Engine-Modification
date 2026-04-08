@@ -227,6 +227,7 @@
     {"id":{"name":"menu","path":"objects/menu/menu.yy",},},
     {"id":{"name":"obj_boardutils_init","path":"objects/obj_boardutils_init/obj_boardutils_init.yy",},},
     {"id":{"name":"obj_cutscene_inst","path":"objects/obj_cutscene_inst/obj_cutscene_inst.yy",},},
+    {"id":{"name":"obj_debug_menu","path":"objects/obj_debug_menu/obj_debug_menu.yy",},},
     {"id":{"name":"shaker","path":"objects/shaker/shaker.yy",},},
     {"id":{"name":"text_single","path":"objects/text_single/text_single.yy",},},
     {"id":{"name":"text_typer","path":"objects/text_typer/text_typer.yy",},},

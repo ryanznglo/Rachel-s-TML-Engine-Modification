@@ -1,4 +1,12 @@
 var can_move=(moveable&&_moveable_dialog&&_moveable_menu&&_moveable_save&&_moveable_warp&&_moveable_encounter&&_moveable_box);
+
+// quality of life change lmao
+if instance_exists(obj_debug_menu) {
+	if obj_debug_menu._debug_open {
+		can_move = false
+	}
+}
+
 if(can_move){
 	if(Input_IsHeld(INPUT.UP)){
 		move[DIR.UP]=2;

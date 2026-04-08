@@ -23,6 +23,9 @@
 #macro FLAG_STATIC_FUN "fun"
 #macro FLAG_STATIC_KR "kr"
 #macro FLAG_STATIC_KR_TIMER "kr_timer"
+
+#macro FLAG_STATIC_PLAYER_X "player_x"
+#macro FLAG_STATIC_PLAYER_Y "player_y"
 #endregion
 
 #region dynamic

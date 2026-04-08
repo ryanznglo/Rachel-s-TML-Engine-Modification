@@ -38,6 +38,7 @@
     {"name":"logo","order":13,"path":"objects/logo/logo.yy",},
     {"name":"menu","order":6,"path":"objects/menu/menu.yy",},
     {"name":"obj_boardutils_init","order":23,"path":"objects/obj_boardutils_init/obj_boardutils_init.yy",},
+    {"name":"obj_debug_menu","order":24,"path":"objects/obj_debug_menu/obj_debug_menu.yy",},
     {"name":"shaker","order":11,"path":"objects/shaker/shaker.yy",},
     {"name":"world","order":1,"path":"objects/world/world.yy",},
   ],
