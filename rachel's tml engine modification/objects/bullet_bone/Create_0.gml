@@ -18,3 +18,5 @@ tri = false
 paps = false
 
 centered = false
+
+damage = 1

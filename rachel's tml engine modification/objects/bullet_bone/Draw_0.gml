@@ -35,7 +35,7 @@ if place_meeting(x,y,battle_soul)
 		}
 		else
 		{
-			Battle_CallSoulEventHurt(1);
+			Battle_CallSoulEventHurt(Player_CalculateDamage(damage));
 		}
 		
 	}

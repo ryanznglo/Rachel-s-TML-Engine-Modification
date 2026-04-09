@@ -76,7 +76,7 @@ for (var i = 0; i < array_length(bone_data); i++)
 			}
 			else
 			{
-				Battle_CallSoulEventHurt(1);
+				Battle_CallSoulEventHurt(Player_CalculateDamage(damage));
 			}
         }
     }

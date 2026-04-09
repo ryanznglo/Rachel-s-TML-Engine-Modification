@@ -27,3 +27,5 @@ alarm[0] = 1;
 spr_bone = spr_bullet_bone
 
 top = false
+
+damage = 1
