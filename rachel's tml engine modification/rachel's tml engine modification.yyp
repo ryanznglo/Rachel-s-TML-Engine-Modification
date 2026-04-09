@@ -156,7 +156,6 @@
     {"id":{"name":"battle_board","path":"objects/battle_board/battle_board.yy",},},
     {"id":{"name":"battle_bullet_wbonestab","path":"objects/battle_bullet_wbonestab/battle_bullet_wbonestab.yy",},},
     {"id":{"name":"battle_bullet","path":"objects/battle_bullet/battle_bullet.yy",},},
-    {"id":{"name":"battle_bullet1","path":"objects/battle_bullet1/battle_bullet1.yy",},},
     {"id":{"name":"battle_button_act","path":"objects/battle_button_act/battle_button_act.yy",},},
     {"id":{"name":"battle_button_fight","path":"objects/battle_button_fight/battle_button_fight.yy",},},
     {"id":{"name":"battle_button_item","path":"objects/battle_button_item/battle_button_item.yy",},},

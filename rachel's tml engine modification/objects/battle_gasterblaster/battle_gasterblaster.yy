@@ -17,8 +17,8 @@
     "path":"folders/Objects/Battle/Bullet.yy",
   },
   "parentObjectId":{
-    "name":"battle_bullet1",
-    "path":"objects/battle_bullet1/battle_bullet1.yy",
+    "name":"battle_bullet",
+    "path":"objects/battle_bullet/battle_bullet.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
