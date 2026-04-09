@@ -1,5 +1,6 @@
 event_inherited();
 
+
 //移动
 if(Battle_GetState()==BATTLE_STATE.IN_TURN && moveable){
 	var SPD=Player_GetSpdTotal()
