@@ -47,5 +47,12 @@ _group_font_space_y[2]=real(Lang_GetString("font.battle.space.y"));
 
 _group_voice[0,0]=snd_text_voice_default;
 _group_voice[1,0]=snd_text_voice_typer;
+_group_voice[2,0]=snd_text_voice_twigs;
+_group_voice[3,0]=snd_text_voice_treat;
+_group_voice[4,0]=snd_text_voice_mochi;
+_group_voice[5,0]=snd_text_voice_moxie;
+_group_voice[6,0]=snd_text_voice_trick;
+_group_voice[7,0]=snd_text_voice_timber;
+_group_voice[8,0]=snd_text_voice_senbei;
 
 _group_face[0]=face;

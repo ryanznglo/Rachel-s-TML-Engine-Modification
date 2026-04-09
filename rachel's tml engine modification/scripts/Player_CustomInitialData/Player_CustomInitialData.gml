@@ -1,22 +1,19 @@
 function Player_CustomInitialData(){
-	Player_SetName("PLAYER");
-	Player_SetLv(1);
-	Player_SetHpMax(20);
-	Player_SetHp(20);
-	Player_SetAtk(10);
-	Player_SetDef(10);
+	Player_SetName("Timber");
+	Player_SetLv(15);
+	Player_SetHpMax(76);
+	Player_SetHp(76);
+	Player_SetAtk(28);
+	Player_SetDef(3);
 	Player_SetSpd(2.5);
 	Player_SetInv(40);
 	Player_SetBattleFightMenuObj(battle_menu_fight_knife);
 	
 	var items=Item_GetInventoryItems();
-	items.Add(ITEM_TOY_KNIFE);
-	items.Add(ITEM_FADED_RIBBON);
-	items.Add(ITEM_DICE);
 	
 	var phones=Item_GetInventoryPhones();
-	phones.Add(ITEM_PHONE_TML);
+	//phones.Add(ITEM_PHONE_TML);
 	
-	Player_SetItemWeapon(ITEM_STICK);
-	Player_SetItemArmor(ITEM_BANDAGE);
+	Player_SetItemWeapon(ITEM_POCKET_KNIFE);
+	Player_SetItemArmor(ITEM_NECK_BANDAGE);
 }

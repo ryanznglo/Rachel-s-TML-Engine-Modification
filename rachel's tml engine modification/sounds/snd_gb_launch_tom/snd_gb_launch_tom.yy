@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":2.36932,
+  "duration":2.3693197,
   "exportDir":"",
   "name":"snd_gb_launch_tom",
   "parent":{

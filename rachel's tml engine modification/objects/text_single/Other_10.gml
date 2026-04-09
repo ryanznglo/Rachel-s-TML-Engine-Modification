@@ -2,7 +2,7 @@
 if(font_exists(font)){
 	draw_set_font(font);
 	if(shadow){
-		draw_text_transformed_color(x+_offset_x+shadow_x*scale_x,y+_offset_y+shadow_y*scale_y,text,scale_x,scale_y,angle,color_shadow[0],color_shadow[1],color_shadow[3],color_shadow[2],alpha_shadow*alpha);
+		//draw_text_transformed_color(x+_offset_x+shadow_x*scale_x,y+_offset_y+shadow_y*scale_y,text,scale_x,scale_y,angle,color_shadow[0],color_shadow[1],color_shadow[3],color_shadow[2],alpha_shadow*alpha);
 	}
 	if(outline){
 		var proc=0;

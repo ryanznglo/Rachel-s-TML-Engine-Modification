@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.50568,
+  "duration":0.50068027,
   "exportDir":"",
   "name":"snd_stab",
   "parent":{

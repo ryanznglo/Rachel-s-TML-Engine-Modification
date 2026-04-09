@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"CustomItem_NeckBandage",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"CustomItem_NeckBandage",
+  "parent":{
+    "name":"CustomItems",
+    "path":"folders/Scripts/Item/CustomItems.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

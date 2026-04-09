@@ -7,10 +7,10 @@
   },
   "bitDepth":1,
   "channelFormat":0,
-  "compression":0,
+  "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":46.35719,
+  "duration":38.406258,
   "exportDir":"",
   "name":"bgm_gameover",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"bgm_gameover",
+  "soundFile":"bgm_gameover.ogg",
   "volume":1.0,
 }

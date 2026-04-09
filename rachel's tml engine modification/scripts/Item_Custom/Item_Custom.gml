@@ -22,6 +22,8 @@ function Item_Custom(){
 		// See CustomItem_Bandage for healing item example.
 		#macro ITEM_BANDAGE "bandage"
 		itemTypes.Register(ITEM_BANDAGE, new CustomItem_Bandage());
+		#macro ITEM_NECK_BANDAGE "bandages"
+		itemTypes.Register(ITEM_NECK_BANDAGE, new CustomItem_NeckBandage());
 		
 		// See CustomItem_ToyKnife for help of equippable weapon.
 		#macro ITEM_TOY_KNIFE "toy_knife"
@@ -46,6 +48,9 @@ function Item_Custom(){
 
 		#macro ITEM_REAL_KNIFE "real_knife" 
 		itemTypes.Register(ITEM_REAL_KNIFE, new CustomItem_RealKnife()); 
+
+		#macro ITEM_POCKET_KNIFE "pocket_knife" 
+		itemTypes.Register(ITEM_POCKET_KNIFE, new CustomItem_PocketKnife()); 
 
 		#macro ITEM_WORN_DAGGER "dagger" 
 		itemTypes.Register(ITEM_WORN_DAGGER, new CustomItem_WornDagger()); 
