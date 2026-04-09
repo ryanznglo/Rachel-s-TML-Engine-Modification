@@ -1,5 +1,10 @@
 event_inherited();
 
+var STATE=Battle_GetState();
+if(STATE != BATTLE_STATE.TURN_PREPARATION && STATE != BATTLE_STATE.IN_TURN){
+	exit;
+}
+
 if(dir==DIR.DOWN){
 	image_angle=0;
 }else if(dir==DIR.UP){
