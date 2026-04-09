@@ -6,6 +6,7 @@ if start
 	if timer == 10
 	{
 		CreateBone(Board_X(DIR.LEFT), Board_Y(DIR.DOWN), 100, 1, 0, 0)
+		BoneStab(DIR.DOWN, 50)
 	}
 	if timer == 100
 	{

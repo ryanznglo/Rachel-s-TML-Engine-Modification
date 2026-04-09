@@ -41,5 +41,6 @@
     {"name":"obj_debug_menu","order":24,"path":"objects/obj_debug_menu/obj_debug_menu.yy",},
     {"name":"shaker","order":11,"path":"objects/shaker/shaker.yy",},
     {"name":"world","order":1,"path":"objects/world/world.yy",},
+    {"name":"Point_Line_Distance","order":1,"path":"scripts/Point_Line_Distance/Point_Line_Distance.yy",},
   ],
 }
