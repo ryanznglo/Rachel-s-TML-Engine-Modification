@@ -43,6 +43,7 @@
     {"name":"shaker","order":11,"path":"objects/shaker/shaker.yy",},
     {"name":"world","order":1,"path":"objects/world/world.yy",},
     {"name":"Battle_CreateBoardCutout","order":1,"path":"scripts/Battle_CreateBoardCutout/Battle_CreateBoardCutout.yy",},
+    {"name":"Battle_Repeat","order":3,"path":"scripts/Battle_Repeat/Battle_Repeat.yy",},
     {"name":"Delay_Event","order":2,"path":"scripts/Delay_Event/Delay_Event.yy",},
     {"name":"Point_Line_Distance","order":1,"path":"scripts/Point_Line_Distance/Point_Line_Distance.yy",},
     {"name":"spr_battle_soul_blue","order":2,"path":"sprites/spr_battle_soul_blue/spr_battle_soul_blue.yy",},

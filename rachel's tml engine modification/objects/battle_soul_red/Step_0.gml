@@ -1,5 +1,9 @@
 event_inherited();
 
+var STATE=Battle_GetState();
+if !(STATE == BATTLE_STATE.TURN_PREPARATION || STATE == BATTLE_STATE.IN_TURN){
+	exit;
+}
 
 //移动
 if(Battle_GetState()==BATTLE_STATE.IN_TURN && moveable){

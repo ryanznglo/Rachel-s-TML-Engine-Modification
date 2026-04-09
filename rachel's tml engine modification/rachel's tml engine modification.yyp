@@ -320,6 +320,7 @@
     {"id":{"name":"Battle_IsTurnPreparationAutoEnd","path":"scripts/Battle_IsTurnPreparationAutoEnd/Battle_IsTurnPreparationAutoEnd.yy",},},
     {"id":{"name":"Battle_IsTurnValid","path":"scripts/Battle_IsTurnValid/Battle_IsTurnValid.yy",},},
     {"id":{"name":"Battle_RemoveEnemy","path":"scripts/Battle_RemoveEnemy/Battle_RemoveEnemy.yy",},},
+    {"id":{"name":"Battle_Repeat","path":"scripts/Battle_Repeat/Battle_Repeat.yy",},},
     {"id":{"name":"Battle_RewardExp","path":"scripts/Battle_RewardExp/Battle_RewardExp.yy",},},
     {"id":{"name":"Battle_RewardGold","path":"scripts/Battle_RewardGold/Battle_RewardGold.yy",},},
     {"id":{"name":"Battle_SetDialog","path":"scripts/Battle_SetDialog/Battle_SetDialog.yy",},},

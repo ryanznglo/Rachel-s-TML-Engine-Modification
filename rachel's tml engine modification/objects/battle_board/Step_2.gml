@@ -1,7 +1,8 @@
-var STATE=Battle_GetState();
-if(STATE != BATTLE_STATE.TURN_PREPARATION && STATE != BATTLE_STATE.IN_TURN){
-	exit;
-}
+
+//var STATE=Battle_GetState();
+//if !(STATE == BATTLE_STATE.TURN_PREPARATION || STATE == BATTLE_STATE.IN_TURN){
+//	exit;
+//}
 
 
 if (array_length(push_array) > 0) {

@@ -1,7 +1,7 @@
 event_inherited();
 
 var STATE=Battle_GetState();
-if(STATE != BATTLE_STATE.TURN_PREPARATION && STATE != BATTLE_STATE.IN_TURN){
+if !(STATE == BATTLE_STATE.TURN_PREPARATION || STATE == BATTLE_STATE.IN_TURN){
 	exit;
 }
 

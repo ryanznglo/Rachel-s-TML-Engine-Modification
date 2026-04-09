@@ -23,6 +23,8 @@ function Battle_EndTurn() {
 				event_user(BATTLE_BULLET_EVENT.TURN_END);
 			}
 		}
+		
+		instance_destroy(battle_board_cutout)
 	
 		Battle_GotoNextState();
 		return true;

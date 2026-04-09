@@ -11,6 +11,7 @@ if start
 	}
 	if timer == 100
 	{
+		Board.Size.SetSize(65, 65, 100, 283, ANIM_TWEEN.LINEAR)
 		Battle_Slam(DIR.DOWN)
 		//When timer is 100, It will do something.
 	}
@@ -19,7 +20,7 @@ if start
 		Battle_EndTurn()
 		//When timer is 100, It will do something.
 	}
-	if timer >= 150 && timer <= 400 && timer%30==0
+	if Battle_Repeat(150, 400, 30) 
 	{
 		//When timer is between 150 and 450, and the timer variable is 30's multiple, it will do something.
 	}
