@@ -1,13 +1,13 @@
 /// @description Draw
 
-depth=top ? DEPTH_BATTLE.BULLET_OUTSIDE_HIGH : DEPTH_BATTLE.BULLET;
+depth = top ? DEPTH_BATTLE.BULLET_OUTSIDE_HIGH : DEPTH_BATTLE.BULLET;
 
 surface_set_target(Battle_GetBoardSurface());
 
-var len = height + 100;
+var len = height * 2
 var edge = variable_instance_get(battle_board, _dirs[@ dir]);
 
-var soul = battle_soul
+var soul = battle_soul;
 
 for (var i = 0; i < array_length(bone_data); i++)
 {
@@ -39,46 +39,74 @@ for (var i = 0; i < array_length(bone_data); i++)
         + lengthdir_y(_sep, base_dir)
         + lengthdir_y(-u_pos - 10, dir);
 
+    // draw bone
     draw_sprite_ext(
-        spr_bone,
-        0,
-        bx, by,
-        1,
-        len / sprite_get_height(spr_bone),
-        ang,
-        image_blend,
-        1
-    );
+	    spr_bone,
+	    0,
+	    bx, by,
+	    1, // ← restore this
+	    len / sprite_get_height(spr_bone),
+	    ang,
+	    image_blend,
+	    1
+	);
 
+    // collision + debug
     if (instance_exists(soul))
     {
         var px = soul.x;
         var py = soul.y;
 
-        var dx = lengthdir_x(1, ang);
-        var dy = lengthdir_y(1, ang);
 
-        var x1 = bx;
-        var y1 = by;
-        var x2 = bx + dx * len;
-        var y2 = by + dy * len;
+		// direction
+		var dx = lengthdir_x(1, ang);
+		var dy = lengthdir_y(1, ang);
+		
+		var thickness = sprite_get_width(spr_bone) / 4
 
-        var dist = Point_Line_Distance(px, py, x1, y1, x2, y2);
+		// step along the bone
+		var step = max(2, thickness);
 
-        var thickness = 6;
+		var hit = false;
 
-        if (dist < thickness)
-        {
-            if global.karma {
-				Player_HurtKr()
-				audio_play_sound(snd_hurt,0,false);
-				Camera_Shake(2,2,4,4);
-			}
-			else
-			{
-				Battle_CallSoulEventHurt(Player_CalculateDamage(damage, 1, 1));
-			}
-        }
+		for (var d = 0; d <= width / 16; d += step)
+		{
+		    var cx = bx + dx * d;
+		    var cy = by + dy * d;
+
+		    if (point_distance(px, py, cx, cy) <= thickness)
+		    {
+		        hit = true;
+		        break;
+		    }
+		}
+
+		if (hit)
+		{
+		    if (global.karma)
+		    {
+		        Player_HurtKr();
+		        audio_play_sound(snd_hurt, 0, false);
+		        Camera_Shake(2, 2, 4, 4);
+		    }
+		    else
+		    {
+		        Battle_CallSoulEventHurt(
+		            Player_CalculateDamage(damage, 1, 1)
+		        );
+		    }
+		}
+		draw_set_color(c_lime);
+		draw_set_alpha(0)
+
+		for (var d = 0; d <= width / 16; d += step)
+		{
+		    var cx = bx + dx * d;
+		    var cy = by + dy * d;
+
+		    draw_circle(cx, cy, thickness, false);
+		}
+		draw_set_alpha(1)
     }
 }
 

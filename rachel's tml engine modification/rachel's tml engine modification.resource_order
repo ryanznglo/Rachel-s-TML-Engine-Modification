@@ -171,6 +171,8 @@
     {"name":"spr_battle_menu_item_scrollbar_dot","order":2,"path":"sprites/spr_battle_menu_item_scrollbar_dot/spr_battle_menu_item_scrollbar_dot.yy",},
     {"name":"spr_battle_soul_blue","order":5,"path":"sprites/spr_battle_soul_blue/spr_battle_soul_blue.yy",},
     {"name":"spr_battle_soul_break","order":6,"path":"sprites/spr_battle_soul_break/spr_battle_soul_break.yy",},
+    {"name":"PointInBone","order":1,"path":"scripts/PointInBone/PointInBone.yy",},
+    {"name":"spr_battle_soul_blue","order":2,"path":"sprites/spr_battle_soul_blue/spr_battle_soul_blue.yy",},
     {"name":"spr_battle_soul_precise","order":3,"path":"sprites/spr_battle_soul_precise/spr_battle_soul_precise.yy",},
     {"name":"spr_battle_soul_red","order":7,"path":"sprites/spr_battle_soul_red/spr_battle_soul_red.yy",},
     {"name":"spr_battle_soul_slice","order":8,"path":"sprites/spr_battle_soul_slice/spr_battle_soul_slice.yy",},

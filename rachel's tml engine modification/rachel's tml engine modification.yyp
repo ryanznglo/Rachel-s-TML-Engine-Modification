@@ -566,7 +566,7 @@
     {"id":{"name":"Player_SetSpd","path":"scripts/Player_SetSpd/Player_SetSpd.yy",},},
     {"id":{"name":"Player_SetSpdItem","path":"scripts/Player_SetSpdItem/Player_SetSpdItem.yy",},},
     {"id":{"name":"Player_UpdateLv","path":"scripts/Player_UpdateLv/Player_UpdateLv.yy",},},
-    {"id":{"name":"Point_Line_Distance","path":"scripts/Point_Line_Distance/Point_Line_Distance.yy",},},
+    {"id":{"name":"PointInBone","path":"scripts/PointInBone/PointInBone.yy",},},
     {"id":{"name":"RegisterManager","path":"scripts/RegisterManager/RegisterManager.yy",},},
     {"id":{"name":"RegularBlaster","path":"scripts/RegularBlaster/RegularBlaster.yy",},},
     {"id":{"name":"RegularBlasterCircle","path":"scripts/RegularBlasterCircle/RegularBlasterCircle.yy",},},
