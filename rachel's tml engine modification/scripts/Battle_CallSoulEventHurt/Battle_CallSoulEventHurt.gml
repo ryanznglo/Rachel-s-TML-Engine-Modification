@@ -5,11 +5,12 @@ function Battle_CallSoulEventHurt(dmg) {
 	}
 	
 	with(battle_soul){
-		event_user(BATTLE_SOUL_EVENT.HURT);
 		damage = dmg
+		event_user(BATTLE_SOUL_EVENT.HURT);
 		show_debug_message(damage)
 	}
 	return true;
 
 
 }
+ 
