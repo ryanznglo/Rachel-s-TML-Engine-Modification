@@ -7,10 +7,11 @@ if (ready == 1) && (image_alpha < 1) {
             var typer = instance_create_depth(120, 320, DEPTH_UI.TEXT, text_typer);
 				typer._skippable = false
             var types = [
-                "lmao you died{pause}{clear}"
+                "lmao you died{pause}{clear}",
+                "lol you died idiot{pause}{clear}",
             ];
 
-            var suffix = string(Player_GetName()) + "!{sleep 24} &Stay DETERMINED i guess{pause}{clear}{pause}{end}";
+            var suffix = string(Player_GetName()) + "!{sleep 24} &Stay DETERMINED i guess {pause}{clear}{pause}{end}";
             typer.text = prefix_+types[ rand ] + suffix;
         }
 
