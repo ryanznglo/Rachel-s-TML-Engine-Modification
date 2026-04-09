@@ -37,7 +37,7 @@ instance_create_depth(0,0,0,closed_captions);
 
 application_surface_draw_enable(false);
 
-//Border_SetEnabled(true);
+Border_SetEnabled(true);
 
 show_debug_message("UNDERTALE by Toby Fox");
 show_debug_message("UNDERTALE Engine by TML");
