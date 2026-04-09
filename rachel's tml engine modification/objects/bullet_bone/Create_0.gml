@@ -16,3 +16,5 @@ sinprod = 0
 top = false
 tri = false
 paps = false
+
+centered = false

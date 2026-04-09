@@ -645,6 +645,7 @@
     {"id":{"name":"spr_block_corner","path":"sprites/spr_block_corner/spr_block_corner.yy",},},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},},
     {"id":{"name":"spr_border_simple","path":"sprites/spr_border_simple/spr_border_simple.yy",},},
+    {"id":{"name":"spr_bullet_bone_centered","path":"sprites/spr_bullet_bone_centered/spr_bullet_bone_centered.yy",},},
     {"id":{"name":"spr_bullet_bone","path":"sprites/spr_bullet_bone/spr_bullet_bone.yy",},},
     {"id":{"name":"spr_char_box","path":"sprites/spr_char_box/spr_char_box.yy",},},
     {"id":{"name":"spr_char_frisk_down","path":"sprites/spr_char_frisk_down/spr_char_frisk_down.yy",},},

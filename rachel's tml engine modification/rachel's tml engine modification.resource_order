@@ -42,5 +42,6 @@
     {"name":"shaker","order":11,"path":"objects/shaker/shaker.yy",},
     {"name":"world","order":1,"path":"objects/world/world.yy",},
     {"name":"Point_Line_Distance","order":1,"path":"scripts/Point_Line_Distance/Point_Line_Distance.yy",},
+    {"name":"spr_bullet_bone_centered","order":1,"path":"sprites/spr_bullet_bone_centered/spr_bullet_bone_centered.yy",},
   ],
 }

@@ -4,6 +4,11 @@ image_angle=180-angle
 if colour==noone colour=c_white
 image_yscale=length/sprite_get_height(spr_bullet_bone);
 image_index=paps;
+
+if centered { // quality of life !!!
+	sprite_index = spr_bullet_bone_centered
+}
+
 var temp_pos=[x,y];
 x-=lengthdir_x(origin,image_angle-90);
 y-=lengthdir_y(origin,image_angle-90);
