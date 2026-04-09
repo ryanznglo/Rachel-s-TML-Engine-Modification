@@ -4,7 +4,7 @@ depth = top ? DEPTH_BATTLE.BULLET_OUTSIDE_HIGH : DEPTH_BATTLE.BULLET;
 
 surface_set_target(Battle_GetBoardSurface());
 
-var len = height
+var len = height * 2
 var edge = variable_instance_get(battle_board, _dirs[@ dir]);
 
 var soul = battle_soul;
@@ -97,6 +97,7 @@ for (var i = 0; i < array_length(bone_data); i++)
 		    }
 		}
 		draw_set_color(c_lime);
+		draw_set_alpha(0)
 
 		for (var d = 0; d <= width / 16; d += step)
 		{
@@ -105,6 +106,7 @@ for (var i = 0; i < array_length(bone_data); i++)
 
 		    draw_circle(cx, cy, thickness, false);
 		}
+		draw_set_alpha(1)
     }
 }
 

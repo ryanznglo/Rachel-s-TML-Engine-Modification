@@ -5,9 +5,9 @@ if start
 	timer++
 	if timer == 10
 	{
-		//CreateBone(Board_X(DIR.LEFT), Board_Y(DIR.DOWN), 100, 1, 0, 0)
+		CreateBone(Board_X(DIR.LEFT), Board_Y(DIR.DOWN), 100, 1, 0, 0)
 		BoneStab(DIR.DOWN, 50, 100)
-		//Battle_CreateBoardCutout(100, 20, 100, 100, battle_board.x + 100, battle_board.y)
+		Battle_CreateBoardCutout(100, 20, 100, 100, battle_board.x + 100, battle_board.y)
 	}
 	if timer == 100
 	{
