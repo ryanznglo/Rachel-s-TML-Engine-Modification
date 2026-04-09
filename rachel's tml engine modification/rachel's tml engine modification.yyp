@@ -397,6 +397,7 @@
     {"id":{"name":"CustomItem_Tutu","path":"scripts/CustomItem_Tutu/CustomItem_Tutu.yy",},},
     {"id":{"name":"CustomItem_WornDagger","path":"scripts/CustomItem_WornDagger/CustomItem_WornDagger.yy",},},
     {"id":{"name":"Cutscenes","path":"scripts/Cutscenes/Cutscenes.yy",},},
+    {"id":{"name":"Delay_Event","path":"scripts/Delay_Event/Delay_Event.yy",},},
     {"id":{"name":"Demo_AddInput","path":"scripts/Demo_AddInput/Demo_AddInput.yy",},},
     {"id":{"name":"Demo_ClearInput","path":"scripts/Demo_ClearInput/Demo_ClearInput.yy",},},
     {"id":{"name":"Demo_GetInput","path":"scripts/Demo_GetInput/Demo_GetInput.yy",},},
@@ -702,8 +703,8 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"room_init","path":"rooms/room_init/room_init.yy",},},
     {"roomId":{"name":"room_logo","path":"rooms/room_logo/room_logo.yy",},},
-    {"roomId":{"name":"room_area_0","path":"rooms/room_area_0/room_area_0.yy",},},
     {"roomId":{"name":"room_menu","path":"rooms/room_menu/room_menu.yy",},},
+    {"roomId":{"name":"room_area_0","path":"rooms/room_area_0/room_area_0.yy",},},
     {"roomId":{"name":"room_battle","path":"rooms/room_battle/room_battle.yy",},},
     {"roomId":{"name":"room_gameover","path":"rooms/room_gameover/room_gameover.yy",},},
     {"roomId":{"name":"room_shop","path":"rooms/room_shop/room_shop.yy",},},
