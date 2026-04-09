@@ -1,4 +1,4 @@
-var count = width div 20;
+var count = width div 20; // or any constant / pattern-based value
 var use_sep = (dir mod 180) != 0;
 var depthh = (height + 10) * (dir - 90) / 90;
 

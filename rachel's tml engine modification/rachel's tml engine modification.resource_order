@@ -45,7 +45,7 @@
     {"name":"Battle_CreateBoardCutout","order":1,"path":"scripts/Battle_CreateBoardCutout/Battle_CreateBoardCutout.yy",},
     {"name":"Battle_Repeat","order":3,"path":"scripts/Battle_Repeat/Battle_Repeat.yy",},
     {"name":"Delay_Event","order":2,"path":"scripts/Delay_Event/Delay_Event.yy",},
-    {"name":"Point_Line_Distance","order":1,"path":"scripts/Point_Line_Distance/Point_Line_Distance.yy",},
+    {"name":"PointInBone","order":1,"path":"scripts/PointInBone/PointInBone.yy",},
     {"name":"spr_battle_soul_blue","order":2,"path":"sprites/spr_battle_soul_blue/spr_battle_soul_blue.yy",},
     {"name":"spr_battle_soul_precise","order":3,"path":"sprites/spr_battle_soul_precise/spr_battle_soul_precise.yy",},
     {"name":"spr_battle_soul","order":1,"path":"sprites/spr_battle_soul/spr_battle_soul.yy",},

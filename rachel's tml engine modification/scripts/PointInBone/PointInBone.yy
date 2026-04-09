@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Point_Line_Distance",
+  "%Name":"PointInBone",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Point_Line_Distance",
+  "name":"PointInBone",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
