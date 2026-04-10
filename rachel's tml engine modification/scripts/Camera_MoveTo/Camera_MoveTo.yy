@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Camera_MoveTo",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Camera_MoveTo",
+  "parent":{
+    "name":"Camera",
+    "path":"folders/Scripts/Camera.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

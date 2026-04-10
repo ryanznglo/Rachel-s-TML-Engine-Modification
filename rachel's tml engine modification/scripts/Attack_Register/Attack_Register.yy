@@ -6,7 +6,7 @@
   "name":"Attack_Register",
   "parent":{
     "name":"Attacks",
-    "path":"folders/Scripts/Attacks.yy",
+    "path":"folders/Scripts/Battle/Attacks.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

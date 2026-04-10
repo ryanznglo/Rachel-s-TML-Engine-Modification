@@ -1,0 +1,1 @@
+typer = TextTyper("Cutscene [instant=true]boom", 0.5, 100, 80);

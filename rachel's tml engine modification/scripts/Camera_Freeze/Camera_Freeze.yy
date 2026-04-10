@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Camera_Freeze",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Camera_Freeze",
+  "parent":{
+    "name":"Camera",
+    "path":"folders/Scripts/Camera.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
