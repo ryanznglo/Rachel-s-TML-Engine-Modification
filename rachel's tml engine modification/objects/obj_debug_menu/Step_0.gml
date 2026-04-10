@@ -38,7 +38,7 @@ if (_debug_open) {
 					exit;
 				}
 				
-                Battle_EndTurn()
+                Attack_End()
 				break;
 
             case 2:
