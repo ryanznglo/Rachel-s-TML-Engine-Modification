@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Color_Utils",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Color_Utils",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

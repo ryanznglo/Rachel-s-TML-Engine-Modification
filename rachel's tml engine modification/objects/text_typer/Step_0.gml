@@ -21,6 +21,14 @@ if (timer >= 1)
     {
         index++;
     }
+	
+	var ch = string_char_at(full_text, index);
+
+    if (ch != " " && ch != "" && ch != "[" )
+    {
+		audio_play_sound(voice, 0, false);
+    }
+
 
     if (index >= len)
     {

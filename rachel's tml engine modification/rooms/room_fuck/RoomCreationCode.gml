@@ -1,1 +1,1 @@
-typer = TextTyper("Cutscene [instant=true]boom", 0.5, 100, 80);
+typer = TextTyper("Cutscene [color=#FF0000]boom[/color]", 0.5, 100, 80);

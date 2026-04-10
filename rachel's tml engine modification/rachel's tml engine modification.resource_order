@@ -90,6 +90,7 @@
     {"name":"Camera_Shake","order":1,"path":"scripts/Camera_Shake/Camera_Shake.yy",},
     {"name":"Camera_Snap","order":6,"path":"scripts/Camera_Snap/Camera_Snap.yy",},
     {"name":"Camera_Zoom","order":4,"path":"scripts/Camera_Zoom/Camera_Zoom.yy",},
+    {"name":"Color_Utils","order":36,"path":"scripts/Color_Utils/Color_Utils.yy",},
     {"name":"Delay_Event","order":21,"path":"scripts/Delay_Event/Delay_Event.yy",},
     {"name":"DialogueManager","order":26,"path":"scripts/DialogueManager/DialogueManager.yy",},
     {"name":"Fader_Fade","order":6,"path":"scripts/Fader_Fade/Fader_Fade.yy",},
