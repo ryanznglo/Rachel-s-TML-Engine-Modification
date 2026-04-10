@@ -365,7 +365,7 @@
     {"id":{"name":"Battle_SetTurnNumber","path":"scripts/Battle_SetTurnNumber/Battle_SetTurnNumber.yy",},},
     {"id":{"name":"Battle_SetTurnPreparationAutoEnd","path":"scripts/Battle_SetTurnPreparationAutoEnd/Battle_SetTurnPreparationAutoEnd.yy",},},
     {"id":{"name":"Battle_SetTurnTime","path":"scripts/Battle_SetTurnTime/Battle_SetTurnTime.yy",},},
-    {"id":{"name":"Battle_SlamUtils","path":"scripts/Battle_SlamUtils/Battle_SlamUtils.yy",},},
+    {"id":{"name":"Battle_Slam","path":"scripts/Battle_Slam/Battle_Slam.yy",},},
     {"id":{"name":"battle_warn","path":"scripts/battle_warn/battle_warn.yy",},},
     {"id":{"name":"BGM_GetAudio","path":"scripts/BGM_GetAudio/BGM_GetAudio.yy",},},
     {"id":{"name":"BGM_GetID","path":"scripts/BGM_GetID/BGM_GetID.yy",},},
