@@ -5,6 +5,13 @@ if !(STATE == BATTLE_STATE.TURN_PREPARATION || STATE == BATTLE_STATE.IN_TURN){
 	exit;
 }
 
+// DEBUG MENU LOCK
+if (instance_exists(obj_debug_menu)) {
+	if (obj_debug_menu._debug_open) {
+		exit;
+	}
+}
+
 //移动
 if(Battle_GetState()==BATTLE_STATE.IN_TURN && moveable){
 	var SPD=Player_GetSpdTotal()

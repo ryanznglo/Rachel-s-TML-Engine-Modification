@@ -1,5 +1,12 @@
 event_inherited();
 
+// DEBUG MENU LOCK
+if (instance_exists(obj_debug_menu)) {
+	if (obj_debug_menu._debug_open) {
+		exit;
+	}
+}
+
 if (dir == DIR.DOWN)
     image_angle = 0;
 else if (dir == DIR.UP)
