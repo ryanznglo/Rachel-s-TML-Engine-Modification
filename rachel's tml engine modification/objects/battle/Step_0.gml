@@ -296,3 +296,13 @@ if(_state!=BATTLE_STATE.RESULT && Battle_GetEnemyNumber()==0){
 	text+="{pause}{end}";
 	Battle_SetDialog(text);
 }
+
+if (global.current_attack != noone) {
+
+    var atk = global.current_attack;
+
+    atk.func(atk.timer);
+    atk.timer++;
+
+    global.current_attack = atk;
+}
