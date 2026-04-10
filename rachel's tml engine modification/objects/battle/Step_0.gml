@@ -297,12 +297,22 @@ if(_state!=BATTLE_STATE.RESULT && Battle_GetEnemyNumber()==0){
 	Battle_SetDialog(text);
 }
 
+// new stuff
+
 if (global.current_attack != noone) {
-
     var atk = global.current_attack;
-
     atk.func(atk.timer);
     atk.timer++;
 
     global.current_attack = atk;
+}
+
+if (global.request_attack_start) {
+	global.request_attack_start = false;
+	Attack_Run(global.pending_attack);
+}
+
+if (global.request_turn_end) {
+	global.request_turn_end = false;
+	Battle_EndTurn();
 }

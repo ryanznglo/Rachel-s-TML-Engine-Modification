@@ -1,5 +1,7 @@
 function Battle_EndTurn() {
 	if (Battle_GetState() != BATTLE_STATE.IN_TURN) return false;
+	
+	Battle_SetTurnNumber(Battle_GetTurnNumber() + 1);
 
 	var _end_attack = true;
 
@@ -31,14 +33,7 @@ function Battle_EndTurn() {
 		global.attack_queue = ds_queue_create();
 	}
 
-	if (!ds_queue_empty(global.attack_queue)) {
-
-		var next_attack = ds_queue_dequeue(global.attack_queue);
-
-		Attack_Run(next_attack);
-
-		return true;
-	}
+	if (Attack_ProcessQueue()) return true;
 
 	Battle_GotoNextState();
 

@@ -46,6 +46,7 @@
     {"name":"Attack_End","order":4,"path":"scripts/Attack_End/Attack_End.yy",},
     {"name":"Attack_Example","order":3,"path":"scripts/Attack_Example/Attack_Example.yy",},
     {"name":"Attack_Init","order":5,"path":"scripts/Attack_Init/Attack_Init.yy",},
+    {"name":"Attack_ProcessQueue","order":7,"path":"scripts/Attack_ProcessQueue/Attack_ProcessQueue.yy",},
     {"name":"Attack_Queue","order":2,"path":"scripts/Attack_Queue/Attack_Queue.yy",},
     {"name":"Attack_Run","order":1,"path":"scripts/Attack_Run/Attack_Run.yy",},
     {"name":"Battle_CreateBoardCutout","order":1,"path":"scripts/Battle_CreateBoardCutout/Battle_CreateBoardCutout.yy",},

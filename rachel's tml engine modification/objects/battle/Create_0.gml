@@ -91,5 +91,5 @@ _player_temp_spd=0;
 _player_temp_inv=0;
 
 global.karma = false
-global.turn = 0;
+Battle_SetTurnNumber(0)
 global.current_attack = noone;
