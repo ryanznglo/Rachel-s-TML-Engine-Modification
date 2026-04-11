@@ -427,23 +427,63 @@ switch(cmd[|0]){
 		break;
 		
 	case "script":
-		var target = -1;
-	
-		if (is_real(cmd[|1])) {
-			target = cmd[|1];
-		} else if (is_string(cmd[|1])) {
-			target = asset_get_index(cmd[|1]);
+		var target=-1;
+		if(is_real(cmd[|1])){
+			target=cmd[|1];
+		}else{
+			target=asset_get_index(cmd[|1]);
 		}
-	
-		if (script_exists(target)) {
-			var argc = ds_list_size(cmd) - 2;
-		
-			var args = array_create(argc);
-			for (var i = 0; i < argc; i++) {
-				args[i] = cmd[| i + 2];
+		if(script_exists(target)){
+			switch(ds_list_size(cmd)-2){
+				case 0:
+					script_execute(target);
+					break;
+				case 1:
+					script_execute(target,cmd[|2]);
+					break;
+				case 2:
+					script_execute(target,cmd[|2],cmd[|3]);
+					break;
+				case 3:
+					script_execute(target,cmd[|2],cmd[|3],cmd[|4]);
+					break;
+				case 4:
+					script_execute(target,cmd[|2],cmd[|3],cmd[|4],cmd[|5]);
+					break;
+				case 5:
+					script_execute(target,cmd[|2],cmd[|3],cmd[|4],cmd[|5],cmd[|6]);
+					break;
+				case 6:
+					script_execute(target,cmd[|2],cmd[|3],cmd[|4],cmd[|5],cmd[|6],cmd[|7]);
+					break;
+				case 7:
+					script_execute(target,cmd[|2],cmd[|3],cmd[|4],cmd[|5],cmd[|6],cmd[|7],cmd[|8]);
+					break;
+				case 8:
+					script_execute(target,cmd[|2],cmd[|3],cmd[|4],cmd[|5],cmd[|6],cmd[|7],cmd[|8],cmd[|9]);
+					break;
+				case 9:
+					script_execute(target,cmd[|2],cmd[|3],cmd[|4],cmd[|5],cmd[|6],cmd[|7],cmd[|8],cmd[|9],cmd[|10]);
+					break;
+				case 10:
+					script_execute(target,cmd[|2],cmd[|3],cmd[|4],cmd[|5],cmd[|6],cmd[|7],cmd[|8],cmd[|9],cmd[|10],cmd[|11]);
+					break;
+				case 11:
+					script_execute(target,cmd[|2],cmd[|3],cmd[|4],cmd[|5],cmd[|6],cmd[|7],cmd[|8],cmd[|9],cmd[|10],cmd[|11],cmd[|12]);
+					break;
+				case 12:
+					script_execute(target,cmd[|2],cmd[|3],cmd[|4],cmd[|5],cmd[|6],cmd[|7],cmd[|8],cmd[|9],cmd[|10],cmd[|11],cmd[|12],cmd[|13]);
+					break;
+				case 13:
+					script_execute(target,cmd[|2],cmd[|3],cmd[|4],cmd[|5],cmd[|6],cmd[|7],cmd[|8],cmd[|9],cmd[|10],cmd[|11],cmd[|12],cmd[|13],cmd[|14]);
+					break;
+				case 14:
+					script_execute(target,cmd[|2],cmd[|3],cmd[|4],cmd[|5],cmd[|6],cmd[|7],cmd[|8],cmd[|9],cmd[|10],cmd[|11],cmd[|12],cmd[|13],cmd[|14],cmd[|15]);
+					break;
+				case 15:
+					script_execute(target,cmd[|2],cmd[|3],cmd[|4],cmd[|5],cmd[|6],cmd[|7],cmd[|8],cmd[|9],cmd[|10],cmd[|11],cmd[|12],cmd[|13],cmd[|14],cmd[|15],cmd[|16]);
+					break;
 			}
-		
-			script_execute_ext(target, args);
 		}
 		break;
 		
