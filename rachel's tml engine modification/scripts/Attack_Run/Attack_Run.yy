@@ -6,7 +6,7 @@
   "name":"Attack_Run",
   "parent":{
     "name":"Attacks",
-    "path":"folders/Scripts/Battle/Attacks.yy",
+    "path":"folders/Scripts/Attacks.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

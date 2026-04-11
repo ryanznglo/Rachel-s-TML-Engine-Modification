@@ -1,11 +1,3 @@
-
-if (freeze_timer > 0) {
-	freeze_timer--;
-	exit; // stop camera update
-}
-
-if (locked) exit;
-
 if(shake_x>0){
 	if(_shake_time_x>0){
 		_shake_time_x-=1;
@@ -59,8 +51,8 @@ if(shake_y>0){
 	_shake_positive_y=true;
 }
 
-var sizeX = (width / scale_x) / zoom;
-var sizeY = (height / scale_y) / zoom;
+var sizeX=width/scale_x;
+var sizeY=height/scale_y;
 if(instance_exists(target)){
 	var top=limit_top;
 	var bottom=limit_bottom;
@@ -73,9 +65,8 @@ if(instance_exists(target)){
 		bottom=room_height;
 	}
 	// Here x y are the center camera pos
-	// commented out for the target system to work with lerp.
-	//x=target.x;
-	//y=target.y;
+	x=target.x;
+	y=target.y;
 	if(x+sizeX/2>right) x=right-sizeX/2;
 	if(x-sizeX/2<left) x=left+sizeX/2;
 	if(y+sizeY/2>bottom) y=bottom-sizeY/2;
@@ -87,13 +78,3 @@ if(instance_exists(target)){
 camera_set_view_pos(_camera,x+_shake_pos_x,y+_shake_pos_y);
 camera_set_view_size(_camera,sizeX,sizeY);
 camera_set_view_angle(_camera,angle);
-
-zoom = lerp(zoom, zoom_target, zoom_speed);
-
-if (target != noone) {
-	x = lerp(x, target.x, follow_speed);
-	y = lerp(y, target.y, follow_speed);
-} else {
-	x = lerp(x, move_target_x, move_speed);
-	y = lerp(y, move_target_y, move_speed);
-}

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"Battle_Repeat",
   "parent":{
-    "name":"Battle",
-    "path":"folders/Scripts/Battle.yy",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

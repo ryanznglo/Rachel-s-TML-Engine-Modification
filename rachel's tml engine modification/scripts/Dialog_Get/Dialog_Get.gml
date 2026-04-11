@@ -1,3 +1,7 @@
 function Dialog_Get() {
-    return ds_queue_dequeue(global._dialog_queue);
+	var TEXT=ds_queue_dequeue(global._dialog_queue);
+
+	return (is_string(TEXT) ? TEXT : "");
+
+
 }

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"Camera_Shake",
   "parent":{
-    "name":"Camera",
-    "path":"folders/Scripts/Camera.yy",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
