@@ -28,3 +28,19 @@ _shake_time_x=0;
 _shake_time_y=0;
 _shake_positive_x=true;
 _shake_positive_y=true;
+
+/// NEW
+
+freeze_timer = 0
+move_speed = 0
+
+zoom = 1;
+zoom_target = 1;
+zoom_speed = 0.1;
+
+locked = false
+
+move_target_x = 0
+move_target_y = 0
+
+follow_speed = 1
