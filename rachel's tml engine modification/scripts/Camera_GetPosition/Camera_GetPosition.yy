@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"Camera_GetPosition",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Camera",
+    "path":"folders/Scripts/Camera.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

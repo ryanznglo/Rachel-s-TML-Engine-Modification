@@ -1,1 +1,1 @@
-text="* (This is a box.){script `Camera_Zoom` 1.5 0.05}{pause}{clear}* (You can put an item&  inside or take an item&  out.){pause}{clear}* (The same box will appear&  later,{sleep 10} so don't worry&  about coming back.){pause}{clear}* (Sincerely,{sleep 10} a box lover.){pause}{end}";
+text="* (This is a sign.){pause}{clear}* (Zoom in.){script `Camera_Zoom` 1.5 0.05}{pause}{clear}* (Zoom out.){script `Camera_Zoom` 1 0.05}{pause}{clear}* sigma.{pause}{end}";
