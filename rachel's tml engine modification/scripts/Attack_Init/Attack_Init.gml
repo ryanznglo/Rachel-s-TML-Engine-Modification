@@ -9,5 +9,6 @@ function Attack_Init(){
 	global.request_turn_end = false
 
 
+	// register your attacks here
 	Attack_Register("example", Attack_Example);
 }
