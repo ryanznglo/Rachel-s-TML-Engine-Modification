@@ -396,7 +396,6 @@
     {"id":{"name":"Camera_Snap","path":"scripts/Camera_Snap/Camera_Snap.yy",},},
     {"id":{"name":"Camera_Zoom","path":"scripts/Camera_Zoom/Camera_Zoom.yy",},},
     {"id":{"name":"CC_Add","path":"scripts/CC_Add/CC_Add.yy",},},
-    {"id":{"name":"Color_Utils","path":"scripts/Color_Utils/Color_Utils.yy",},},
     {"id":{"name":"CreateBone","path":"scripts/CreateBone/CreateBone.yy",},},
     {"id":{"name":"CustomItem_Apron","path":"scripts/CustomItem_Apron/CustomItem_Apron.yy",},},
     {"id":{"name":"CustomItem_Bandage","path":"scripts/CustomItem_Bandage/CustomItem_Bandage.yy",},},

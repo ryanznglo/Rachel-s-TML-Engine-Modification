@@ -19,9 +19,7 @@ function TryHandleCommand(_text, _index, _len, _callback)
         return -1;
 
     var cmd = string_copy(_text, start + 1, endd - start - 1);
-
     _callback(cmd);
 
-    // skip entire command INCLUDING bracket safely
     return endd + 1;
 }

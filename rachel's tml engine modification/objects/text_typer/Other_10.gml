@@ -1,42 +1,34 @@
-/// FONT / VOICE SETUP
+// initial stuff
 
-_group_font  = [];
-_group_voice = [];
+_group_font = []
+_group_voice = []
 
 LoadFontGroup(0, "dialog");
 LoadFontGroup(1, "menu");
 LoadFontGroup(2, "battle");
 
-// VOICES
 _group_voice[0, 0] = snd_text_voice_default;
 _group_voice[1, 0] = snd_text_voice_typer;
 
-/// TEXT STATE
+// variables
 
-full_text    = "";
+full_text = "";
 visible_text = "";
 
-len    = 0;
-index  = 0;
+len = 0;
 
-finished = false;
-instant  = false;
-
-// TEXT SPEED
-
+index = 0;
 text_speed = 0.5;
-timer      = 0;
+timer = 0;
+finished = false;
 
-/// STYLE
+alpha = 1
+instant = false;
 
-font     = _group_font[0, 0];
-voice    = _group_voice[1, 0];
+font = _group_font[0, 0]
+voice = _group_voice[1, 0]
 
-scale_x = 2;
-scale_y = 2;
+image_blend = c_white
 
-alpha = 1;
-
-/// COLOR SYSTEM (STACK BASED)
-draw_color  = c_white;
-color_stack = [c_white];
+scale_x = 2
+scale_y = 2
