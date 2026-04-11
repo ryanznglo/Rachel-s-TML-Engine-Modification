@@ -42,6 +42,8 @@
     {"name":"obj_boardutils_init","order":23,"path":"objects/obj_boardutils_init/obj_boardutils_init.yy",},
     {"name":"obj_debug_menu","order":24,"path":"objects/obj_debug_menu/obj_debug_menu.yy",},
     {"name":"shaker","order":11,"path":"objects/shaker/shaker.yy",},
+    {"name":"text_single","order":1,"path":"objects/text_single/text_single.yy",},
+    {"name":"text_typer","order":2,"path":"objects/text_typer/text_typer.yy",},
     {"name":"world","order":1,"path":"objects/world/world.yy",},
     {"name":"Attack_End","order":4,"path":"scripts/Attack_End/Attack_End.yy",},
     {"name":"Attack_Example","order":3,"path":"scripts/Attack_Example/Attack_Example.yy",},
