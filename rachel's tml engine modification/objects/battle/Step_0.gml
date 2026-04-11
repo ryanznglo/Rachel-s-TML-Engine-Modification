@@ -1,10 +1,3 @@
-// DEBUG MENU LOCK
-if (instance_exists(obj_debug_menu)) {
-	if (obj_debug_menu._debug_open) {
-		exit;
-	}
-}
-
 //菜单
 if(_state==BATTLE_STATE.MENU){
 	//按钮

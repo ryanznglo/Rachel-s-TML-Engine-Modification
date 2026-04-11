@@ -17,33 +17,16 @@ draw_text(menu_x + 15, menu_y + 10, "DEBUG MENU");
 for (var i = 0; i < array_length(menu_items); i++) {
 
     var text = menu_items[i];
-    var setting = menu_settings[i];
 
-	if (is_struct(setting)) {
-
-		var val = setting.value();
-
-		switch (setting.type) {
-
-			case "list":
-				text += ": " + string(setting.list[val]);
-				break;
-
-			case "number":
-				if (instance_exists(battle)) {
-					text += ": " + string(val);
-				} else {
-					text += ": N/A";
-				}
-				break;
-		}
-	}
+    if (i == 0) {
+        text += ": " + string(encounter_list[encounter_index]);
+    }
 
     var y_pos = menu_y + 30 + i * line_height;
 
     if (i == menu_index) {
-        draw_text(menu_x + 15, y_pos, "> " + text);
+        draw_text(menu_x + 15, y_pos, "     " + text);
     } else {
-        draw_text(menu_x + 15, y_pos, text);
+        draw_text(menu_x + 15, y_pos, "" + text);
     }
 }
