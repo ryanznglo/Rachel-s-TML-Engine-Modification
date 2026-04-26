@@ -6,8 +6,6 @@ function Battle_EndTurn() {
 	var _end_attack = true;
 
 
-	Battle_SetTurnNumber(Battle_GetTurnNumber() + 1);
-
 	Battle_CallEnemyEvent(BATTLE_ENEMY_EVENT.TURN_END);
 
 	if (instance_exists(battle_turn)) {
