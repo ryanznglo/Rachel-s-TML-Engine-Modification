@@ -26,8 +26,6 @@ function Battle_EndTurn() {
 		instance_destroy(battle_board_cutout);
 	}
 
-	if (Attack_ProcessQueue()) return true;
-
 	Battle_GotoNextState();
 
 	return true;
