@@ -5,9 +5,6 @@ function Battle_EndTurn() {
 
 	var _end_attack = true;
 
-	if (variable_global_exists("current_attack")) {
-		global.current_attack = noone;
-	}
 
 	Battle_SetTurnNumber(Battle_GetTurnNumber() + 1);
 
@@ -27,10 +24,6 @@ function Battle_EndTurn() {
 
 	if (instance_exists(battle_board_cutout)) {
 		instance_destroy(battle_board_cutout);
-	}
-
-	if (!variable_global_exists("attack_queue")) {
-		global.attack_queue = ds_queue_create();
 	}
 
 	if (Attack_ProcessQueue()) return true;

@@ -1,6 +1,6 @@
-function Battle_Repeat(start, stop, interval = 1){
+function Battle_Repeat(start, stop, interval = 1, _offset = 0, _t){
     if instance_exists(battle_turn)
-        return (battle_turn.timer == clamp(battle_turn.timer, start, stop) && (battle_turn.timer - start) % interval == 0);
+        return (_t == clamp(_t, start, stop) && (_t - start) % interval == _offset);
     else
         return false;
 }

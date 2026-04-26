@@ -92,4 +92,3 @@ _player_temp_inv=0;
 
 global.karma = false
 Battle_SetTurnNumber(0)
-global.current_attack = noone;

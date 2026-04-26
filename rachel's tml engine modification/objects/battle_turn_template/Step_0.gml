@@ -1,5 +1,4 @@
 if start {
-	if (global.current_attack == noone) {
-	    Turn_Template(Battle_GetTurnNumber());
-	}
+	Turn_Template(Battle_GetTurnNumber());
+	timer++
 }

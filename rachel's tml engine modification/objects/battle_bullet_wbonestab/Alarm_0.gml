@@ -1,26 +1,11 @@
-var count = width div 20; // or any constant / pattern-based value
-var use_sep = (dir mod 180) != 0;
-var depthh = (height + 10) * (dir - 90) / 90;
+for (var i = 0; i < width / 20; i++) {
+	var _sep = 5 + i * 10;
+	var _depth = (height + 10) * (dir - 90) / 90;
+	bones[i * 2] = CreateBone(x + (dir % 180 ? _sep : -_depth), y + (dir % 180 ? _depth : _sep), height + 100, 0, 0, 90 - random_range(dir + 180 - _angled, dir + 180 + _angled), false, 0, image_blend, 90);
+	bones[i * 2 + 1] = CreateBone(x - (dir % 180 ? _sep : _depth), (dir % 180 ? _depth : -_sep), height + 100, 0, 0, 90 - random_range(dir + 180 - _angled, dir + 180 + _angled), false, 0, image_blend, 90);
+}
 
-var base_angle_min = dir + 180 - _angled;
-var base_angle_max = dir + 180 + _angled;
-
-bone_data = []; 
-
-for (var i = 0; i < count; i++)
+if wait < 0
 {
-    var sep = 5 + i * 10;
-    var rand_ang = 90 - random_range(base_angle_min, base_angle_max);
-
-    array_push(bone_data, {
-        side: 1,
-        sep: sep,
-        ang: rand_ang
-    });
-
-    array_push(bone_data, {
-        side: -1,
-        sep: sep,
-        ang: rand_ang
-    });
+	u_pos = height;
 }
